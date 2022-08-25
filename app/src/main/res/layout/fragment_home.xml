@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:textSize="39sp"
+            android:layout_height="match_parent"
+            android:text="Home" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:id="@+id/second"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="2nd Fragment"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:id="@+id/trd"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="2nd Fragment"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>
